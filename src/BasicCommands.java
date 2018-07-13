@@ -24,5 +24,8 @@ public class BasicCommands {
 
         //git --version
         //Gives current git version
+
+        //git commit -m "<comment>"
+        //Commit changes to local repo with a comment
     }
 }
