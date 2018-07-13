@@ -27,5 +27,16 @@ public class BasicCommands {
 
         //git commit -m "<comment>"
         //Commit changes to local repo with a comment
+
+        //clear
+        //Clear command prompt for visual simplicity
+
+        //touch <file>
+        //Create a new file
+
+        //.gitignore
+        //Use touch .gitignore to create a list of ignored files
+        //State files in .gitignore with their name and
+        //state whole directories as /<directoryName>
     }
 }
