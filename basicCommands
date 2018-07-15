@@ -4,6 +4,7 @@ Initialize local git repository
 git log
 Show commit logs
 --follow to look at specific file
+-L <start>,<end>:<file> to look at specific lines of a file from creating the file
 
 git add <file>
 Add file(s) to staging area of the index
@@ -57,3 +58,10 @@ Add a remote repository
 
 git push -u <repoName> <branchName>
 Push changes in the branch to remote repository
+
+git diff
+Changes in the working tree not yet staged for the next commit.
+git diff --cached
+Changes between the index and your last commit; what you would be committing if you run "git commit" without "-a" option.
+git diff HEAD
+Changes in the working tree since your last commit; what you would be committing if you run "git commit -a"
