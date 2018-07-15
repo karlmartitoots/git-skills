@@ -1,6 +1,10 @@
 git init
 Initialize local git repository
 
+git log
+Show commit logs
+--follow to look at specific file
+
 git add <file>
 Add file(s) to staging area of the index
 
