@@ -1,0 +1,55 @@
+git init
+Initialize local git repository
+
+git add <file>
+Add file(s) to staging area of the index
+
+git status
+Check status of working tree
+
+git commit
+Commit changes in index to local repository
+
+git push
+Push to remote repository
+
+git pull
+Pull latest version from remote repository
+
+git clone
+Clone repository into a new directory
+
+git --version
+Gives current git version
+
+git commit -m "<comment>"
+Commit changes to local repo with a comment
+
+clear
+Clear command prompt for visual simplicity
+
+touch <file>
+Create a new file
+
+.gitignore
+Use touch .gitignore to create a list of ignored files
+State files in .gitignore with their name and
+state whole directories as /<directoryName>
+
+git branch <branchName>
+Create a new branch for separating development tasks
+
+git checkout <branchName>
+Switch to another branch, main branch is "master"
+
+git merge <branchName>
+Merge the branch with current working branch
+
+git remote
+List remote repositories
+
+git remote add <repoName> <repoURL>
+Add a remote repository
+
+git push -u <repoName> <branchName>
+Push changes in the branch to remote repository
