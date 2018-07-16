@@ -1,0 +1,6 @@
+//notice that you're committing master but didn't want to
+git branch <branchName>
+git reset --hard HEAD~<n>
+//branch and reset your <n> commits in master
+git checkout <branchName>
+//keep working in the other branch
