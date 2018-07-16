@@ -1,0 +1,7 @@
+Edit project
+git add things to the project
+//now somebody asks to pull changes worthy of merging and does not affect my work, but my index is already different
+git reset
+//clears index but leaves working tree the same
+git pull ...
+//pull changes and merge leaving my new things in the working tree to readd them
