@@ -34,5 +34,6 @@ git-reset and git-checkout (with pathname parameters) to undo changes.
 git-merge to merge between local branches.
 
 git-rebase to maintain topic branches.
+git rebase <branchName>
 
 git-tag to mark a known point.
