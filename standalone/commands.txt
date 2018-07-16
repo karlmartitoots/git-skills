@@ -29,7 +29,7 @@ git-reset and git-checkout (with pathname parameters) to undo changes.
 --hard <commit> resets current branch to <commit>, discarding changes in index and working tree
 --mixed <commit> (default) resets to <commit>, removing changes in index but keeping working tree
 (opposite of git add)
-
+<commit> can be HEAD^ to go one commit back or HEAD~2 to go 2 commits back or HEAD~<n> to go <n> commits back
 
 git-merge to merge between local branches.
 
