@@ -1,0 +1,8 @@
+git commit ...
+//misspelled commit msg/commit incomplete etc. 
+git reset --soft HEAD^
+//commit is now copied to .git/ORIG_HEAD
+edit
+//correct what was wrong
+git commit -a -c ORIG_HEAD
+//redo the commit, -C option if message doesn't need editing
