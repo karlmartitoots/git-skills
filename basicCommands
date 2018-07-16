@@ -1,20 +1,3 @@
-git init
-Initialize local git repository
-
-git log
-Show commit logs
---follow to look at specific file
--L <start>,<end>:<file> to look at specific lines of a file from creating the file
-
-git add <file>
-Add file(s) to staging area of the index
-
-git status
-Check status of working tree
-
-git commit
-Commit changes in index to local repository
-
 git push
 Push to remote repository
 
@@ -27,9 +10,6 @@ Clone repository into a new directory
 git --version
 Gives current git version
 
-git commit -m "<comment>"
-Commit changes to local repo with a comment
-
 clear
 Clear command prompt for visual simplicity
 
@@ -40,12 +20,6 @@ Create a new file
 Use touch .gitignore to create a list of ignored files
 State files in .gitignore with their name and
 state whole directories as /<directoryName>
-
-git branch <branchName>
-Create a new branch for separating development tasks
-
-git checkout <branchName>
-Switch to another branch, main branch is "master"
 
 git merge <branchName>
 Merge the branch with current working branch
@@ -58,10 +32,3 @@ Add a remote repository
 
 git push -u <repoName> <branchName>
 Push changes in the branch to remote repository
-
-git diff
-Changes in the working tree not yet staged for the next commit.
-git diff --cached
-Changes between the index and your last commit; what you would be committing if you run "git commit" without "-a" option.
-git diff HEAD
-Changes in the working tree since your last commit; what you would be committing if you run "git commit -a"

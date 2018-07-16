@@ -1,0 +1,38 @@
+git-init to create a new repository.
+
+git-log to see what happened.
+--oneline to get one commit per line (compact)
+--follow to look at specific file
+-L <start>,<end>:<file> to look at specific lines of a file from creating the file
+
+git-checkout and git-branch to switch branches.
+
+git-add to manage the index file.
+-p to stage by smaller hunks of a changed file
+. to stage everything
+
+git-diff and git-status to see what you are in the middle of doing.
+git diff
+Changes in the working tree not yet staged for the next commit.
+git diff --cached
+Changes between the index and your last commit; what you would be committing if you run "git commit" without "-a" option.
+git diff HEAD
+Changes in the working tree since your last commit; what you would be committing if you run "git commit -a"
+git diff <commit1> <commit2> difference between commits
+
+git-commit to advance the current branch.
+-a to do git add -a and commit
+-m to add a comment
+
+git-reset and git-checkout (with pathname parameters) to undo changes.
+--soft <commit> resets current branch to <commit> without changing staged changes or working tree
+--hard <commit> resets current branch to <commit>, discarding changes in index and working tree
+--mixed <commit> (default) resets to <commit>, removing changes in index but keeping working tree
+(opposite of git add)
+
+
+git-merge to merge between local branches.
+
+git-rebase to maintain topic branches.
+
+git-tag to mark a known point.
